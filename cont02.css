@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #09a513;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(39, 93, 209);
+    background-color: #d1dd33;
+}
+
+input[type="password"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+h1 {
+    color: aqua;
+}
+#password {
+    color: blue;
+}
+#Contraseña {
+    color: blueviolet;
+}
+p {
+    color: blue;
+}
